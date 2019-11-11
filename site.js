@@ -49,9 +49,9 @@ var inanimateSelected = true;
 $(document).ready(function() {
     $("#goButton").click(function(){
 		// curse counter
-		fetch("https://www.freevisitorcounters.com/en/home/counter/588546/t/3", {credentials: "omit", mode: 'no-cors',});
-		updateOptionStatuses();
-		$("#circePre").html(getCircePreText());
+		//fetch("https://www.freevisitorcounters.com/en/home/counter/588546/t/3", {credentials: "omit", mode: 'no-cors',});
+		//updateOptionStatuses();
+		//$("#circePre").html(getCircePreText());
 		generation = generation + 1;
 		var curseOutput = generateCurse();
 		
@@ -63,7 +63,7 @@ $(document).ready(function() {
 		$(".circeOnlyOnce").css("display", "none");	
     }); 
 	//visitor counter
-	fetch("https://www.freevisitorcounters.com/en/home/counter/588555/t/3", {mode: 'no-cors',});
+	//fetch("https://www.freevisitorcounters.com/en/home/counter/588555/t/3", {mode: 'no-cors',});
 });
 
 function updateOptionStatuses() {
