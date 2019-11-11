@@ -50,8 +50,8 @@ $(document).ready(function() {
     $("#goButton").click(function(){
 		// curse counter
 		//fetch("https://www.freevisitorcounters.com/en/home/counter/588546/t/3", {credentials: "omit", mode: 'no-cors',});
-		//updateOptionStatuses();
-		//$("#circePre").html(getCircePreText());
+		updateOptionStatuses();
+		$("#circePre").html(getCircePreText());
 		generation = generation + 1;
 		var curseOutput = generateCurse();
 		
