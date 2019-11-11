@@ -1,5 +1,5 @@
 // I apologize for this in advance.
-//test
+
 const circeTexts = [
 	"Alright, here's your curse! Enjoy.",
 	"God, you mortals are so picky. Here, how's this one?"
